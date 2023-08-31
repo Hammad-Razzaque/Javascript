@@ -35,12 +35,14 @@ img.addEventListener("dblclick",()=>{
 btn.addEventListener("click",()=>{
 if(click == 0){
      h4.style.color="#1f657d";
+     btn.style.transform="rotate(360deg)"
      h4.innerHTML="Friend";
      btn.innerHTML="Remove"
      click = 1;
 }
 else{
      h4.style.color="#911c5b";
+     btn.style.transform="rotate(-360deg)"
      h4.innerHTML="Stranger";
      btn.innerHTML="Friend"
      click = 0;

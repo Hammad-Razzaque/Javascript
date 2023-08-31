@@ -73,12 +73,12 @@ body {
      font-size: 0.90rem;
      font-weight: 500;
      cursor: pointer;
-     transition: all 0.3s;
 }
 
 #btn:hover {
      background-color: royalblue;
      color: antiquewhite;
+     transition: all 0.3s;
 }
 
 h3 {
