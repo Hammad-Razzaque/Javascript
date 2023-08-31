@@ -1,0 +1,126 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#game {
+    position: relative;
+    overflow: hidden;
+    margin-top: 3rem;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    background: linear-gradient(#052b2f,
+            #073438,
+            #0e4b50,
+            #2d8f85,
+            #637c54);
+    /* background-color: lightskyblue; */
+    /* border: 1px solid black; */
+
+}
+
+#block {
+    position: absolute;
+    top: 230px;
+    left: 565px;
+    width: 35px;
+    height: 80px;
+    background-color: rgb(134, 191, 107);
+    box-shadow: 10px 10px 10px 3px black;
+    animation: blockmove 1.2s linear infinite;
+    border-radius: 5px;
+}
+
+#block2 {
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    /* background-color: rgb(19, 222, 222); */
+    background: linear-gradient( #0e4b50,#073438, #2d8f85,#00ffff, #637c54);
+    box-shadow: 0px 0px 10px 1px rgb(36, 85, 71);
+    /* border-radius: 50%; */
+
+    opacity: 20%;
+    /* border-radius: 50px; */
+    animation: move 0.5s ease-in-out infinite;
+}
+
+#block3 {
+    position: absolute;
+    top: 0px;
+    left: 565px;
+    width: 30px;
+    height: 100px;
+    background-color: rgb(122, 231, 27);
+    box-shadow: 4px 4px 10px 3px rgb(43, 82, 39);
+    animation: blockmove 4s linear infinite;
+    border-radius: 2px;
+}
+
+#dino {
+    width: 20px;
+    height: 40px;
+    background-color: rgb(46, 188, 206);
+    position: relative;
+    box-shadow: 10px 10px 10px 3px lightseagreen;
+    border-radius: 5px;
+    left: 50px;
+    top: 260px;
+}
+
+#result {
+    height: 200px;
+    width: 400px;
+    background-color: cornflowerblue;
+    margin: 3rem auto;
+    text-align: center;
+    border-radius: 20px;
+    display: none;
+}
+
+#score {
+    font-size: 2.2rem;
+    color: brown;
+}
+
+#btn {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: #00ffff;
+    font-size: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@keyframes blockmove {
+    0% {
+        left: 565px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes move {
+    0% {
+        left: 700px;
+    }
+
+    100% {
+        left: -100px;
+    }
+}

@@ -1,0 +1,44 @@
+* {
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+}
+
+html,
+body {
+     background-color: rgb(40, 30, 30);
+     color: antiquewhite;
+     width: 100vw;
+     height: 100vh;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     overflow-x: hidden;
+
+}
+
+#main {
+     /* position: relative; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100vw;
+     height: 100vh;
+     font-size: 6vw;
+     font-weight: 700;
+     
+}
+#main h1:hover{
+     cursor: pointer;
+}
+
+
+#cursur {
+     background-color:antiquewhite;
+     border-radius: 50%;
+     height: 30px;
+     width: 30px;
+     position: absolute;
+     mix-blend-mode: difference;
+     transition: all linear 0.1s;
+     box-shadow: 4px 4px 10px 1px lightcoral;
+
+}

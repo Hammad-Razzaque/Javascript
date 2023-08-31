@@ -1,0 +1,351 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    background-color: antiquewhite;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.border {}
+
+.border:hover {
+    border: 1px solid aliceblue;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 2vw;
+    width: 100vw;
+    height: 12vh;
+    gap: 10px;
+    background-color: #0f1111;
+    color: aliceblue;
+}
+
+.navbar {
+    height: 8vh;
+    width: 10vw;
+    background-image: url(amazon_logo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-address {
+    padding: 2px;
+    border-radius: 4%;
+}
+
+.loc {
+    display: flex;
+    align-items: center;
+}
+
+.first {
+    font-size: 0.75rem;
+    margin-left: 1rem;
+}
+
+.sec {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.search-bar {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 36px;
+    border-radius: 4px;
+}
+
+.search-bar:hover {
+    border: 2px solid #febd68;
+    border-radius: 6px;
+
+}
+
+.amazon-sucks {
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    padding: 4px 12px;
+    background-color: #f3f3f3;
+
+}
+
+.select {
+    background-color: #f9f9f9f1;
+    text-align: center;
+    width: 50px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+    color: #0f1111;
+}
+
+.nav span {
+    font-size: 0.80rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.account {
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+
+.sigin {
+    padding: 2px 4px;
+}
+
+.return {
+    padding: 2px 4px;
+
+}
+
+.nav-card i {
+    font-size: 30px;
+}
+
+.nav-card {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 2px 4px;
+}
+
+.pannel {
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+    height: 6vh;
+    width: 100vw;
+    padding: 0vw 1vw;
+    display: flex;
+    background-color: #232f3e;
+    font-size: 0.90rem;
+
+
+}
+.pannel-all{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.50vw 0vw;
+
+}
+.pannel-all p{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 6px;
+    
+}
+
+.pannel-opt {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    width: 80%;
+    margin-left: 14px;
+}
+
+.pannel-deal p {
+    padding: 0.50vw;
+    font-weight: 700;
+}
+
+.pannel-opt p {
+    padding: 0.50vw 1vw;
+}
+
+.main {
+    background-image: url(hero_image.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-msg {
+    background-color: #f3f3f3;
+    color: #0f1111;
+    font-size: 0.80rem;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55vw;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 1vw;
+    border-radius: 4px;
+
+}
+
+.hero-msg a {
+    text-decoration: none;
+    color: #007185;
+    font-weight: 700;
+}
+
+.shop {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1vw;
+    width: 100vw;
+    
+
+}
+
+.card {
+    position: relative;
+    margin: 1rem 0rem;
+    padding: 1vw 0vw 0vw;
+    width: 23%;
+    background-color:#f9f9f9f1;
+    box-shadow: 10px 10px 10px 2px lightgray;
+    height: 70vh;
+    border-radius: 5px;
+}
+
+.contain {
+    align-items: center;
+    height: 66vh;
+    margin: 0px 12px;
+    padding: 0vw 1vw;
+}
+.contain h3{
+    color: #232f3e;
+}
+
+.pic {
+    border: none;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    margin: 10px 0px 30px;
+
+}
+.contain p{
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #007185;
+}
+.back{
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 5vh;
+    background-color: #37475a;
+}
+.back a{
+    color:#f9f9f9f1;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.footer{
+    color: #f9f9f9f1;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+}
+.footer ul a{
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9cf;
+    margin-top: 1rem;
+}
+
+.footer p{
+    color: #f3f3f3;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232f3e;
+    width: 100vw;
+    height: 18vh;
+    border-top: 1px solid #f9f9f992;
+    gap: 2vw;
+}
+.loco{
+background-size: cover;
+background-position: center;
+width: 6vw;
+height: 8vh;
+}
+.en{
+    font-size: 0.80rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    border: 1px solid #f9f9f992;
+    padding: 1vw;
+    height: 6vh;
+    color: #f9f9f9cf;
+    font-weight: 600;
+    
+}
+.en i{
+    margin-right: 4px;
+}
+.bottom{
+    font-size: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1d2631;
+    width: 100vw;
+    color: #f9f9f9cf;
+    text-align: center;
+    align-items: center;
+    height: 10vh;
+}
+

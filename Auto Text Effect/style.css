@@ -1,0 +1,14 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+display:flex;
+justify-content: center;
+align-items: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+min-height: 100vh;
+background-color: rebeccapurple;
+color:bisque;
+margin: 0;
+}

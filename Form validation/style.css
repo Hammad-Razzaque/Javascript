@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Poppins:wght@400;500&family=Ysabeau+Office&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+
+--clrs:lime;
+--clre:#e74c3c;
+}
+body{
+    
+font-family: 'Ysabeau Office', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(
+        /* #ff6347, */
+        #ff7f50,
+        #d2691e,
+        #008080
+
+    );
+    margin: auto;
+    backdrop-filter: blur(3rem);
+    opacity: 96%;
+
+}
+.container{
+background-color: aliceblue; 
+border-radius: 10px;
+box-shadow: 0px 6px 10px 2px lightgray;
+border: 1px solid royalblue;
+
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 12px;
+    color: royalblue;
+}
+.form{
+/* min-height: 500px; */
+width: 350px;
+padding: 30px 40px;
+margin: 1rem;
+}
+
+.form-control{
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: royalblue;
+    padding-bottom: 5px;
+}
+
+.form-control label{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-control input{
+
+    border-radius: 4px;
+    display: block;
+    border: 2px solid royalblue;
+    width: 100%;
+    padding: 6px;
+    font-size: 14px;
+    margin-bottom: 1rem;
+
+}
+
+.form-control input:focus{
+    outline: 0;
+    border-color:#777;
+}
+
+.form-control.sucess input{
+    border-color: var(--clrs);
+}
+
+
+.form-control.error input{
+    border-color: var(--clre);
+}
+
+.form-control small{
+    color: var(--clre);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.error small {
+
+    visibility: visible;
+}
+
+ .submit{
+    padding: 13px;
+    width: 100%;
+    background-color: royalblue;
+    border: none;
+    border-radius: 4px;
+    color: azure;
+    cursor: pointer;
+    outline:none;
+ }
+
+ .submit:hover{
+    background-color:azure;
+    border: 1px solid royalblue;
+    color: royalblue;
+    
+ }
+
+@media screen and (min-width:200px) and (max-width:900px) {
+    .body{
+        width: 100%;
+        height: 100%;
+        flex-flow: 1;
+flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    
+}
+
+
+
