@@ -1,0 +1,74 @@
+* {
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+}
+
+body {
+     background-color: black;
+     color: antiquewhite;
+     width: 100vw;
+     height: 100vh;
+     overflow: hidden;
+}
+
+.box {
+     height: 20vh;
+     width: 100vw;
+     border-bottom: 1px solid aliceblue;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 2.5vw;
+     font-weight: 600;
+     background-size: cover;
+     background-position: center;
+     position: relative;
+}
+
+.box img {
+     height: 150px;
+     width: 150px;
+     border-radius: 50%;
+     object-fit: cover;
+     position: absolute;
+     object-position: center;
+     transform: translatex(-50%);
+     opacity: 0;
+}
+
+.american:hover {
+     background-image: url(https://ygo-assets-websites-legacy.yougov.net/cumulus_uploads/entry/30652/american-flag.png?pw=2400);
+     object-fit: cover;
+     object-position: center;
+     background-position: center;
+     background-size: cover;
+}
+.pakistani:hover{
+     background-image: url(https://media.istockphoto.com/id/959633894/photo/flag-of-pakistan.webp?b=1&s=170667a&w=0&k=20&c=x7aH6XATKDlY1nIO1qNcx7gmTk_gmWAOj5MaT2WQPMI=);
+     object-fit: cover;
+     object-position: center;
+     background-position: center;
+     background-size: cover;
+}
+.vietnamese:hover{
+ background-image: url(https://vietnamtrips.com/files/photos/article951/flags-of-vietnam-title-photo.jpg);
+ object-fit: cover;
+ object-position: center;
+ background-position: center;
+ background-size: cover;
+}
+.indian:hover{
+     background-image: url(https://cdn.pixabay.com/photo/2020/04/14/10/15/flag-of-india-5041783_640.jpg);
+     object-fit: cover;
+     object-position: center;
+     background-position: center;
+     background-size: cover;
+}
+
+
+h1 {
+     z-index: 6;
+     mix-blend-mode: difference;
+}
