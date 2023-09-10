@@ -10,12 +10,13 @@ body {
      display: flex;
      align-items: center;
      justify-content: center;
+     font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
      background-color: rgb(218, 235, 241);
-     height: 80vh;
-     width: 70vw;
+     min-height: 80vh;
+     width: 80vw;
      margin-top: 2vw;
      border-radius: 10px;
      overflow: hidden;
@@ -24,32 +25,39 @@ body {
 ul {
      background-color: rgb(19, 19, 67);
      border: 1px solid black;
-     width: 95%;
+     width: 96%;
      margin: 10px 20px;
      border-radius: 5px;
      list-style: none;
+     border-radius: 5px;
      
 }
 
 li {
+     overflow: hidden;
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
      padding: 1vw;
      background-color: azure;
      border: 1px solid black;
      margin: 8px 8px;
-     list-style: none;
+     font-weight: 500;
      position: relative;
      user-select: none;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 i {
      position:absolute;
-     color: brown;
+     color: rgb(163, 27, 27);
      right: 10px;
      cursor: pointer;
+     
 }
 
 input {
-     width: 95%;
+     width: 96%;
      padding: 1vw;
      font-size: 1.2vw;
      margin-bottom: 2vw;
@@ -70,4 +78,6 @@ h1 {
 .done{
      color: rgb(69, 68, 68);
      text-decoration: line-through;
+     background-color: rgb(213, 223, 223);
+
 }
